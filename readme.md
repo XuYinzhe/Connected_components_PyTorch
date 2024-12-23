@@ -1,5 +1,11 @@
 # Connected Components Labeling for PyTorch
 
+Fork notes
+- Fix bugs and test in PyTorch version 2.1.2+cu118
+- Installation: `python setup.py install`  
+
+<hr>
+
 References
 - [YACCLAB : Yet Another Connected Components Labeling Benchmark](https://github.com/prittt/YACCLAB)
 

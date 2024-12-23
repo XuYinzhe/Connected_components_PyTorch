@@ -1,6 +1,4 @@
 import torch
-from cc_torch import _C
-
 
 def connected_components_labeling(x):
     """
@@ -12,6 +10,7 @@ def connected_components_labeling(x):
     Return:
         label (cuda.IntTensor)
     """
+    from cc_torch import _C
     if x.ndim == 2:
         return _C.cc_2d(x)
     elif x.ndim == 3:
