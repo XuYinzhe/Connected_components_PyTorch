@@ -1,7 +1,7 @@
 # Connected Components Labeling for PyTorch
 
 Fork notes
-- Fix bugs and test in PyTorch version 2.1.2+cu118
+- Fix bugs and test in PyTorch version 1.13.1+cu117 and 2.1.2+cu118
 - Installation: `python setup.py install`  
 
 <hr>
